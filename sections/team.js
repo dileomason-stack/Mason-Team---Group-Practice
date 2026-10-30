@@ -4,7 +4,7 @@
 section("team", () => `
   <style>
     #team .team-wrap { padding: 40px 0 8px; text-align: center; }
-    #team .team-eyebrow { margin: 0; font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: ${SITE.color}; filter: brightness(1.6); }
+    #team .team-eyebrow { margin: 0; font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, ${SITE.color} 45%, #fff); }
     #team h2 { margin: 6px 0 8px; font-size: 1.9rem; line-height: 1.2; }
     #team .team-intro { margin: 0 auto 32px; max-width: 520px; color: #98a6bc; }
     #team .team-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
